@@ -38,7 +38,7 @@ public class CustomTabsHelper {
     private static final String EXTRA_CUSTOM_TABS_KEEP_ALIVE =
             "android.support.customtabs.extra.KEEP_ALIVE";
     private static final String ACTION_CUSTOM_TABS_CONNECTION =
-            "android.support.customtabs.action.CustomTabsService";
+            "androidx.browser.customtabs.CustomTabsService";
     private static final Intent activityIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.example.com"));
     private static String sPackageNameToUse;
 
